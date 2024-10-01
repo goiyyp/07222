@@ -1,7 +1,7 @@
 name: sixhour
 on:
   schedule:
-    - cron: '7 9,17,1 * * *'
+    - cron: '8 9,17,1 * * *'
 jobs:
   build:
     runs-on: windows-latest
